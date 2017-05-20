@@ -5,7 +5,7 @@
 html{
 	background: #222 url(../img/abstract3.svg) bottom right no-repeat;
 	height: 100%;
-	background-position: fixed;
+	background-attachment: fixed;
 	overflow-y: scroll;
 }
 
@@ -81,4 +81,19 @@ p{
 
 .jumbotron .lead{
 	font-size: 32px;
+}
+
+@media (max-width: 992px) {
+	.jumbotron h1{
+	font-size: 72px;
+	}	
+}
+
+@media (max-width: 768px) {
+	.jumbotron h1{
+	font-size: 40px;
+	}	
+	.jumbotron .lead{
+	font-size: 20px;
+	}	
 }
