@@ -1,7 +1,10 @@
 @import 'main.css';
 
 html{
-	background: #222;
+	background: #222 url(../img/abstract3.svg) bottom right no-repeat;
+	height: 100%;
+	background-position: fixed;
+	overflow-y: scroll;
 }
 
 body{
