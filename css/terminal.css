@@ -1,6 +1,4 @@
-html{
-	background: #222 url(../img/abstract3.svg) bottom right no-repeat;
-}
+
 
 .fakeButtons {
   height: 10px;
@@ -68,6 +66,12 @@ html{
 
 .redP {
   color: #f00;
+    font-size: 1.25em;
+  font-family: monospace;
+}
+
+.blueP {
+  color: #00f;
     font-size: 1.25em;
   font-family: monospace;
 }
@@ -174,6 +178,13 @@ html{
   -moz-animation: blink 1s 8.5s infinite;
   -o-animation: blink 1s 8.5s infinite;
   animation: blink 1s 8.5s infinite;
+}
+
+.cursorInfinite {
+  -webkit-animation: blink 1s 0.5s infinite;
+  -moz-animation: blink 1s 0.5s infinite;
+  -o-animation: blink 1s 0.5s infinite;
+  animation: blink 1s 0.5s infinite;
 }
 
 

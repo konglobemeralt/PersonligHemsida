@@ -1,17 +1,18 @@
 @import 'main.css';
+@import 'terminal.css';
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 
-html{
-	background: #222 url(../img/abstract3.svg) bottom right no-repeat;
+html{	
 	height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 	overflow-y: scroll;
 }
 
+
+
 body{
-	background: none;
+	background: #222 url(../img/abstract3.svg) bottom right no-repeat;
+    background-attachment: fixed;
 	line-height: 1,5;
 	color: #f5f5f5;
 	font-family: 'Lato', sans-serif;
@@ -28,6 +29,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 p{
+	font-size: 15px;
 	margin-bottom: 1rem;
 }
 
@@ -176,7 +178,23 @@ p{
 }
 
 a { 
-	color: #4e9af3;
+	color: #339999;
+    font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+a:hover, a:focus {
+    color: #95a4a9;
+	text-decoration:none;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    -ms-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+ul, ol, dl {
+    list-style-type: none;
 }
 
 .post-excerpt header a{
@@ -185,6 +203,7 @@ a {
 
 .post-excerpt .header a:hover{
 	text-decoration: none;
+	
 }
 
 .post-excerpt .post-meta, post-excerpt .post-meta a {
@@ -198,6 +217,9 @@ a {
 .post-excerpt .post-meta a:hover {
 	color: #f5f5f5;
 	border: 0;
+	text-decoration: none;
+	border-bottom: 1px dotted #838383
+	
 }
 
 .sidebar {
