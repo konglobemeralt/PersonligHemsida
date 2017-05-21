@@ -66,7 +66,7 @@
 }
 
 
-.blaclLine2 {
+.blackLine2 {
   color: #111;
   -webkit-animation: type .5s 4.25s steps(20, end) forwards;
   -moz-animation: type .5s 4.25s steps(20, end) forwards;
@@ -77,6 +77,14 @@
 
 .blackLine3 {
   color: #111;
+  -webkit-animation: type .5s 7.5s steps(20, end) forwards;
+  -moz-animation: type .5s 7.5s steps(20, end) forwards;
+  -o-animation: type .5s 7.5s steps(20, end) forwards;
+  animation: type .5s 7.5s steps(20, end) forwards;
+}
+
+.redLine3 {
+  color: #ff0000;
   -webkit-animation: type .5s 7.5s steps(20, end) forwards;
   -moz-animation: type .5s 7.5s steps(20, end) forwards;
   -o-animation: type .5s 7.5s steps(20, end) forwards;
@@ -229,24 +237,24 @@
 
 @-webkit-keyframes type {
   to {
-    width: 17em;
+    width: 60em;
   }
 }
 
 @-moz-keyframes type {
   to {
-    width: 17em;
+    width: 60em;
   }
 }
 
 @-o-keyframes type {
   to {
-    width: 17em;
+    width: 60em;
   }
 }
 
 @keyframes type {
   to {
-    width: 17em;
+    width: 60em;
   }
 }
