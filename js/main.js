@@ -5,6 +5,10 @@ $( window ).on( "load", function() {
 		$(".avatar").click(function(){
         $(this).shake(2, 10, 400 );
 	});
+	
+	 $container.isotope({
+     filter: '.recent'
+    });
 });
       
 $(document).ready(function(){
