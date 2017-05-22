@@ -3,7 +3,7 @@
 
 $(window).load(function(){
      $container.isotope({
-     filter: '*'
+     filter: '.recent'
     });
    });
 
