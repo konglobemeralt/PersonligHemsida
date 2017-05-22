@@ -1,6 +1,12 @@
 
  var $container = $('.portfolio-items').isotope('layout');
 
+$(window).load(function(){
+     $container.isotope({
+     filter: '*'
+    });
+   });
+
 
 // filter items on button click
 $('.portfolio-filter').on( 'click', 'a', function(e) {
