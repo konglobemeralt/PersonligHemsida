@@ -1,18 +1,16 @@
 
  var $container = $('.portfolio-items').isotope('layout');
 
-
-   
-   
-$(document).ready(function(){
-    //shake
-	$(".avatar").click(function(){
+$( window ).on( "load", function() {
+		$(".avatar").click(function(){
         $(this).shake(2, 10, 400 );
 	});
-	  $container.isotope({
+});
+      
+$(document).ready(function(){
+	 $container.isotope({
      filter: '.recent'
     });
-
 });
 
 
@@ -37,4 +35,3 @@ jQuery.fn.shake = function(intShakes, intDistance, intDuration) {
   });
 return this;
 };
-
