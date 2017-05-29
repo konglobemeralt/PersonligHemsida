@@ -1,7 +1,7 @@
 
  var $container = $('.portfolio-items').isotope('layout');
 
-$( window ).on( "load", function() {
+$(window).on( "load", function() {
 		$(".avatar").click(function(){
         $(this).shake(2, 10, 400 );
 	});
@@ -9,12 +9,18 @@ $( window ).on( "load", function() {
 	 $container.isotope({
      filter: '.recent'
     });
+    
+    document.getElementById('video').play();
 });
       
 $(document).ready(function(){
 	 $container.isotope({
      filter: '.recent'
     });
+});
+
+jQuery( document ).ready(function($) {
+    document.getElementById('video').play();
 });
 
 
