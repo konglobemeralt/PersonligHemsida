@@ -5,12 +5,14 @@ $(window).on( "load", function() {
 		$(".avatar").click(function(){
         $(this).shake(2, 10, 400 );
 	});
+    
+   
 	
 	 $container.isotope({
      filter: '.recent'
     });
     
-    document.getElementById('video').play();
+    
 });
       
 $(document).ready(function(){
@@ -19,8 +21,14 @@ $(document).ready(function(){
     });
 });
 
-jQuery( document ).ready(function($) {
-    document.getElementById('video').play();
+
+
+var width = $(window).width();
+$(window).resize(function(){
+   if($(this).width() != width){
+      width = $(this).width();
+      sizeTheOverlays();
+   }
 });
 
 
