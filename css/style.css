@@ -5,8 +5,10 @@
 
 html{	
 	height: 100%;
-	overflow-y: scroll;
+        overflow-y: scroll;
+
 }
+
 
 .avatar {
    margin: 0 auto;
@@ -17,7 +19,7 @@ html{
         max-height: 300px;
         border-radius: 225px;
 		border-style: outset;
-		border-color: #11111, #808080;
+		border-color: #1111, #808080;
 		border-width: 0px;
 		
 
@@ -95,7 +97,6 @@ p{
 		content: '';
 	}
 	.navbar-nav>li>a{
-		background: #333333;
 		border-radius: 4px;
 		margin-bottom: 3px;
 	}
@@ -159,13 +160,13 @@ p{
 	margin-bottom: 1rem;
 }
 
-.portfolio-item img{
+.portfolio-item {
 	-webkit-filter: grayscale(20%); 
     filter: grayscale(20%);
 	border-radius: 4px;
 }
 
-.portfolio-item:hover img{
+.portfolio-item:hover {
 	 cursor: pointer;
 	-webkit-filter: grayscale(0%); 
     filter: grayscale(0%);
@@ -300,3 +301,4 @@ ul, ol, dl {
 	border-radius: 4px;
 	margin-bottom: 3rem;
 }
+
