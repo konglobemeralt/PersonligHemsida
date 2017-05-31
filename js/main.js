@@ -17,9 +17,10 @@ $(window).on( "load", function() {
       
 $(document).ready(function(){
 	 $container.isotope({
-     filter: '*'
+     filter: ''
     });
 });
+
 
 
 
