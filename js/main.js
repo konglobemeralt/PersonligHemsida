@@ -23,14 +23,6 @@ $(document).ready(function(){
 
 
 
-var width = $(window).width();
-$(window).resize(function(){
-   if($(this).width() != width){
-      width = $(this).width();
-      sizeTheOverlays();
-   }
-});
-
 
 // filter items on button click
 $('.portfolio-filter').on( 'click', 'a', function(e) {
