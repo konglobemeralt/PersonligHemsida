@@ -9,7 +9,7 @@ $(window).on( "load", function() {
    
 	
 	 $container.isotope({
-     filter: '.recent'
+     filter: '*'
     });
     
     
@@ -17,7 +17,7 @@ $(window).on( "load", function() {
       
 $(document).ready(function(){
 	 $container.isotope({
-     filter: '.recent'
+     filter: '*'
     });
 });
 
