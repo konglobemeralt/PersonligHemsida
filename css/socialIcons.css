@@ -21,6 +21,10 @@ ul.social-network li {
 .social-network a.icoGithub:hover {
 	background-color: #111;
 }
+
+.social-network a.icoInstagram:hover {
+	background-color: #8a3ab9;
+}
 .social-network a.icoFacebook:hover {
 	background-color:#3B5998;
 }
