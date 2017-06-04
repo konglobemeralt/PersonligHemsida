@@ -20,3 +20,20 @@
     max-height: 300px;
     opacity: 1;
 }
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #84dfa9;
+}
+
+.dropdown-menu>li>a {
+    color: #fff;
+    
+}
+
+.dropdown-menu {
+    
+    background-color: transparent;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
