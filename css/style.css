@@ -342,5 +342,9 @@ ul, ol, dl {
     border-radius: 4px;	
 }
 
+.embed-responsive-4by3 {
+    padding-bottom: 75%;
+    
+}
 
 
