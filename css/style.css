@@ -27,7 +27,7 @@ background-image: url(../img/background.svg);
         max-height: 300px;
         border-radius: 225px;
 		border-style: outset;
-		border-color: #1111, #808080;
+		border-color: #111, #808080;
 		border-width: 0px;
 		
 
@@ -92,7 +92,7 @@ p{
 }
 
 .navbar-toggle{
-	background: #333333;
+	background: #84dfa9;
 }
 
 .navbar-toggle .icon-bar{
