@@ -344,7 +344,9 @@ ul, ol, dl {
 
 .embed-responsive-4by3 {
     padding-bottom: 75%;
-    
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    margin-right: 1rem;
 }
 
 
