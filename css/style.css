@@ -302,11 +302,12 @@ ul, ol, dl {
 }
 
 .contact-form {
-	background: #111;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	border-radius: 4px;
 	margin-bottom: 3rem;
+    float: none;
+    margin: 0 auto;
 }
 
 .overlay {
@@ -349,4 +350,8 @@ ul, ol, dl {
     margin-right: 1rem;
 }
 
+.col-md-6 contact-form {
+    float: none;
+    margin: 0 auto;
+}
 
